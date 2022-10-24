@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <base href="https://uo264850.github.io/SEW/practica1/" />
+    <meta charset="UTF-8" />
+    <meta name="author" content="Lucía Megido García" />
+    <meta name="desription" content="Formulario para comentarios sobre Typescript para SEW" />
+    <meta name="keywords" content="Typescript, Formulario, Comentarios" />
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    <title>Typescript - UO264850</title>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a title="Introducción" accesskey="I" tabindex="1" href="index.html">Introducción</a>
+            <a title="Comentarios" accesskey="C" tabindex="2" href="comentarios.html">Comentarios</a>
+            <a title="Diferencias" accesskey="D" tabindex="3" href="diferencias.html">Diferencias con JS</a>
+            <a title="Historia" accesskey="H" tabindex="4" href="historia.html">Historia</a>
+        </nav>
+    </header>
+
+    <main>
+    <h1>Sección de Comentarios</h1>
+        <section>
+            <h2>¡Deja tu opinión sobre Typescript!</h2>
+            <form>
+                <label for="email">Introduce tu email:</label>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto"><br>
+
+                <fieldset>
+                    <legend>Selecciona las cualidades con la que más te identificas:</legend>
+                    <input type="checkbox" id="op1" name="op1" value="ts">
+                    <label for="op1">Tengo mucho conocimiento teórico sobre Typescript</label><br>
+                    <input type="checkbox" id="op2" name="op2" value="ts2">
+                    <label for="op2">Tengo mucho conocimiento práctico Typescript</label><br>
+                    <input type="checkbox" id="op3" name="op3" value="ts3">
+                    <label for="op3">No me gusta este lenguaje</label><br>
+                    <input type="checkbox" id="op4" name="op4" value="ts4">
+                    <label for="op4">Considero que Typescript es de los mejores lenguajes</label><br>
+                    <input type="checkbox" id="op5" name="op5" value="ts5">
+                    <label for="op5">He trabajado numerosas veces con Typescript</label><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>¿Cuánto sabes sobre Typescript?</legend>
+                    <input type="radio" id="mucho" name="conocimiento" value="mucho">
+                    <label for="mucho">¡Se mucho sobre Typescript!</label>
+                    <input type="radio" id="bastante" name="conocimiento" value="bastante">
+                    <label for="bastante">Se bastante sobre Typescript</label>
+                    <input type="radio" id="poco" name="conocimiento" value="poco">
+                    <label for="poco">Se poco sobre Typescript</label>
+                    <input type="radio" id="nada" name="conocimiento" value="nada">
+                    <label for="nada">No se nada sobre Typescript</label>
+                </fieldset>
+
+                <label for="opinion">¿Algún comentario?:</label>
+                <input type="text" id="opinion"><br>
+                <input type="submit" value="Enviar"><input type="reset" value="Limpiar">
+            </form>
+        </section>
+    </main>
+
+    <aside>
+        <h3>Opiniones externas</h3>
+        <a href="https://www.typescriptlang.org/">Página oficial de Typescript</a>
+        <p>Descubre la opinión de un profesor: </p>
+        <audio src="multimedia/audio.mp3" controls></audio>
+    </aside>
+
+    <footer>
+        <img src="multimedia/HTML5.png" alt=" HTML5 Válido!" />
+        <img src="multimedia/CSS3.png" alt="CSS Válido!" />
+    </footer>
+</body>
+
+
+</html>
