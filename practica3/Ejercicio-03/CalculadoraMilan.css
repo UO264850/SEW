@@ -1,0 +1,37 @@
+body{
+    background-color: white;
+}
+
+h1{
+    color: black;
+    margin-left: 10em;
+}
+
+input[type="button"]{
+    background-color: navy;
+    color: turquoise;
+}
+
+section{
+    width: 40em;
+    height: 40em;
+    border-radius: 5%;
+    margin-left: 10em;
+}
+
+div{
+    width: 38em;
+    margin-left: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 8em);
+    grid-gap: 2em;
+    grid-auto-rows: minmax(3em, auto);
+}
+
+input[type="text"]{
+    width: 35em;
+    height: 10em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+}
