@@ -12,6 +12,11 @@ input[type="button"]{
     color: turquoise;
 }
 
+label {
+    font-weight: bold;
+    margin-left: 10em;
+}
+
 section{
     width: 40em;
     height: 40em;
