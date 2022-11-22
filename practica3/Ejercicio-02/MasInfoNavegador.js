@@ -1,14 +1,14 @@
 document.write("Version: ")
 document.writeln(nav.version);
 
-document.write(", Plataforma: ")
+document.write("</p><p>Plataforma: ")
 document.write(nav.plataforma);
 
-document.write(", Vendedor: ")
+document.write("</p><p>Vendedor: ")
 document.write(nav.vendedor);
 
-document.write(", Agente: ")
+document.write("</p><p>Agente: ")
 document.write(nav.agente);
 
-document.write(", Java Activo: ") 
+document.write("</p><p>Java Activo: ") 
 document.write(nav.javaActivo);
