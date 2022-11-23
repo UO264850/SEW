@@ -1,0 +1,51 @@
+/*Lucía Megido García - UO264850*/
+
+/*Especificidad: 001*/
+body{
+    background-color: white;
+    color: black;
+}
+
+/*Especificidad: 001*/
+h1{
+    margin-left: 10em;
+}
+
+/*Especificidad: 011*/
+input[type="button"]{
+    background-color: navy;
+    color: turquoise;
+}
+
+/*Especificidad: 001*/
+label {
+    font-weight: bold;
+    margin-left: 10em;
+}
+
+/*Especificidad: 001*/
+section{
+    width: 40em;
+    height: 40em;
+    border-radius: 5%;
+    margin-left: 10em;
+}
+
+/*Especificidad: 001*/
+div{
+    width: 38em;
+    margin-left: 1em;
+    display: grid;
+    grid-template-columns: repeat(5, 5em);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(3em, auto);
+}
+
+/*Especificidad: 011*/
+input[type="text"]{
+    width: 35em;
+    height: 7em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+}

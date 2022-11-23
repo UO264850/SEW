@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Lucía Megido García" />
+    <meta name="desription" content="Sexto ejercicio de la practica de JS para SEW" />
+    <meta name="keywords" content="Calculadora, RPN, Financiera" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <title>Ejercicio6 JS - UO264850</title>
+    <link rel="stylesheet" href="CalculadoraEspecializada.css">
+    <script src="CalculadoraEspecializada.js"></script>
+</head>
+
+<body>
+    <section>
+        <h1>Calculadora Financiera</h1>
+        <label for="expresion">Pila</label>
+        <input type="text" id="expresion" disabled><br>
+        <label for="pantalla">Pantalla</label>
+        <input type="text" id="pantalla" disabled><br>
+        <div id="botones">
+            <input type="button" id="CE" value="CE" onclick="calc.limpiarRes()">
+            <input type="button" id="C" value="C" onclick="calc.limpiar()">
+            <input type="button" id="enter" value="enter" onclick="calc.push()">
+            <input type="button" id="borrar" value="←" onclick="calc.borrar()">
+            <input type="button" id="dec" value="." onclick="calc.write('.')">
+            <input type="button" id="b9" value="9" onclick="calc.write(9)">
+            <input type="button" id="b8" value="8" onclick="calc.write(8)">
+            <input type="button" id="b7" value="7" onclick="calc.write(7)">
+            <input type="button" id="b6" value="6" onclick="calc.write(6)">
+            <input type="button" id="b5" value="5" onclick="calc.write(5)">
+            <input type="button" id="b4" value="4" onclick="calc.write(4)">
+            <input type="button" id="b3" value="3" onclick="calc.write(3)">
+            <input type="button" id="b2" value="2" onclick="calc.write(2)">
+            <input type="button" id="b1" value="1" onclick="calc.write(1)">
+            <input type="button" id="b0" value="0" onclick="calc.write(0)">    
+            <input type="button" id="cr" value="CapReu" onclick="calc.capitalReunido()">
+            <input type="button" id="if" value="IntFin" onclick="calc.interesFinal()">
+            <input type="button" id="rf" value="Retfin" onclick="calc.retencionFinal()">
+            <input type="button" id="co" value="CapObt" onclick="calc.capitalObtenido()">
+        </div>
+    </section>
+</body>
+
+</html>
