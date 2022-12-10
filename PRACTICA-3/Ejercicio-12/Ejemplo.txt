@@ -1,0 +1,5 @@
+El documento Ejemplo.xml tiene la red social que se entregó la práctica anterior.
+
+En este txt se escriben datos de prueba para comprobar el funcionamiento del ejercicio.
+
+El contenido del archivo Ejemplo.json está basado en el xml.

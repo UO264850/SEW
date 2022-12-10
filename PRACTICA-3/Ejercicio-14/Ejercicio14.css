@@ -1,0 +1,118 @@
+/*Lucía Megido García - UO264850*/
+
+/*Especificidad: 001*/
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+    padding-left: 1em;
+    padding-right: 5em;
+    text-align: left;
+  }
+  
+  /*Especificidad: 001*/
+  h1 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; 
+    font-size: 2.2em;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 0.2em;
+    background-color: navy;
+    color: lightpink;
+    border-radius: 18px;
+  }
+  
+  /*Especificidad: 001*/
+  h2 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; 
+    font-size: 2em;
+    text-transform: capitalize;
+    text-align: center;
+    padding-left: 0.5em;
+    background-color: navy;
+    color: lightpink;
+    border-radius: 18px;
+  }
+  
+  /*Especificidad: 001*/
+  h3 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; 
+    font-size: 1.9em;
+    text-align: left;
+    padding-left: 0.5em;
+    background-color: navy;
+    color: lightpink;
+    border-radius: 18px;
+  }
+  
+  /*Especificidad: 001*/
+  p {
+    padding-left: 0.5em;
+    padding-right: 3em;
+    font-size: 1.8em;
+  }
+  
+  /*Especificidad: 001*/
+  img{
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    max-width: 80%;
+    height: auto;
+  }
+  
+  /*Especificidad: 001*/
+  ul {
+    list-style-type: circle;
+  }
+  
+  /*Especificidad: 002*/
+  ul ul{
+    list-style-type: square;
+  }
+  
+  /*Especificidad: 001*/
+  li {
+    background-color: white;
+    color: black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  
+  /*Especificidad: 001*/
+  table{
+    background-color: lightpink;
+    color: black;
+    padding: 0.25em;
+    text-align: center;
+    border: 2px solid;
+    border-color: black;
+    margin-bottom: 2em;
+  }
+  
+  /*Especificidad: 001*/
+  td{
+    color: black;
+    background-color: white;
+    padding: 0.25em;
+    text-align: center;
+    border: 2px solid;
+    border-color: black;
+  }
+  
+  /*Especificidad: 001*/
+  th{
+    font-size: 1em;
+    color: black;
+    background-color: lightpink;
+  }
+  
+  /*Especificidad 001 */
+  label, input{
+    margin: 0.5em;
+  }
+  
+  /*Especificidad 011 */
+  input[type=text]{
+    width: 100%;
+  }

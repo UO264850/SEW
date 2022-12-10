@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Lucía Megido García" />
+    <meta name="desription" content="Tercer ejercicio de la practica de JS para SEW" />
+    <meta name="keywords" content="Calculadora, Milan, Basico" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <title>Ejercicio3 JS - UO264850</title>
+    <link rel="stylesheet" href="CalculadoraMilan.css">
+    <script src="CalculadoraMilan.js"></script>
+</head>
+
+<body>
+    <section id="calculadora">
+        <h1>Calculadora Milan</h1>
+        <label for="pantalla">Milan</label><br>
+        <input type="text" id="pantalla" disabled>
+        <div id="botones">
+            <input type="button" id="mrc" value="mrc" onclick="calc.mrc()">
+            <input type="button" id="m-" value="m-" onclick="calc.mmenos()">
+            <input type="button" id="m" value="m+" onclick="calc.mmas()">
+            <input type="button" id="sqroot" value="√" onclick="calc.raiz()">
+            <input type="button" id="masmenos" value="±" onclick="calc.masmenos()">
+            <input type="button" id="porcentaje" value="%" onclick="calc.porcentaje()">
+            <input type="button" id="C" value="C" onclick="calc.borrar()">
+            <input type="button" id="dv" value="/" onclick="calc.division()">
+            <input type="button" id="b7" value="7" onclick="calc.digitos(7)">
+            <input type="button" id="b8" value="8" onclick="calc.digitos(8)">
+            <input type="button" id="b9" value="9" onclick="calc.digitos(9)">
+            <input type="button" id="mul" value="*" onclick="calc.multiplicacion()">
+            <input type="button" id="b4" value="4" onclick="calc.digitos(4)">
+            <input type="button" id="b5" value="5" onclick="calc.digitos(5)">
+            <input type="button" id="b6" value="6" onclick="calc.digitos(6)">
+            <input type="button" id="res" value="-" onclick="calc.resta()">
+            <input type="button" id="b1" value="1" onclick="calc.digitos(1)">
+            <input type="button" id="b2" value="2" onclick="calc.digitos(2)">
+            <input type="button" id="b3" value="3" onclick="calc.digitos(3)">
+            <input type="button" id="sum" value="+" onclick="calc.suma()">
+            <input type="button" id="b0" value="0" onclick="calc.digitos(0)">
+            <input type="button" id="dec" value="." onclick="calc.punto()">
+            <input type="button" id="igual" value="=" onclick="calc.igual()">
+        </div>
+    </section>
+</body>
+
+</html>

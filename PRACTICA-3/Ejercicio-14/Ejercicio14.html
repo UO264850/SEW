@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Lucía Megido García" />
+    <meta name="desription" content="Ejercicio 14 de la practica de JS para SEW" />
+    <meta name="keywords" content="API, HTML5, History" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <title>Ejercicio14 JS - UO264850</title>
+    <link rel="stylesheet" type="text/css" href="Ejercicio14.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Ejercicio14.js"></script>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Uso de la API Canvas</h1>
+            <input type = "button" value ="Comenzar a dibujar" onclick='cm.loadCanvas()' />
+            <canvas id="canvas"></canvas>
+        </section>
+        <section>
+            <h2>Uso de la API History</h2>
+            <input type = "button" value ="Atrás" onclick='hm.back()' />
+            <input type = "button" value ="Siguiente" onclick='hm.forward()' />
+            <input type = "text" name="numero" />
+            <input type = "button" value ="Ir a..." onclick='hm.goTo()' />
+        </section>
+        <section>
+            <h2>Uso de la API QuotaManagement</h2>
+            <input type = "button" value ="Espacio Total" onclick='sqm.quota()' />
+            <input type = "button" value ="Espacio en Uso" onclick='sqm.usage()' />
+            <input type = "button" value ="Espacio Disponible" onclick='sqm.available()' />
+            <p title="espacio"></p> 
+        </section>
+    </main>
+</body>
+
+</html>

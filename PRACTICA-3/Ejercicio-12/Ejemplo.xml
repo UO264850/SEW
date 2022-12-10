@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona SYSTEM "Tarea2.dtd">
+<persona nombre="Lucía" apellidos="Megido García">
+    <fechaNacimiento>1999-12-04</fechaNacimiento>
+    <lugarNacimiento nombre="Cangas del Narcea">
+        <longitud>-6.54913</longitud>
+        <latitud>43.1771</latitud>
+        <altitud>396</altitud>
+    </lugarNacimiento>
+    <lugarResidencia nombre="Levinco">
+        <longitud>-5.60097</longitud>
+        <latitud>43.15158</latitud>
+        <altitud>470</altitud>
+    </lugarResidencia>
+    <fotografias>
+        <foto>multimedia/Lucia1.jpg</foto>
+    </fotografias>
+    <videos>
+        <video>multimedia/Lucia2.mp4</video>
+    </videos>
+    <comentarios>Le gusta el ColaCao</comentarios>
+    <amigos>
+        <persona nombre="Jesús" apellidos="Ortega González">
+            <fechaNacimiento>1998-11-09</fechaNacimiento>
+            <lugarNacimiento nombre="Levinco">
+                <longitud>-5.60097</longitud>
+                <latitud>43.15158</latitud>
+                <altitud>470</altitud>
+            </lugarNacimiento>
+            <lugarResidencia nombre="Levinco">
+                <longitud>-5.60097</longitud>
+                <latitud>43.15158</latitud>
+                <altitud>470</altitud>
+            </lugarResidencia>
+            <fotografias>
+                <foto>multimedia/Jesus1.jpg</foto>
+            </fotografias>
+            <comentarios>Le gusta XML</comentarios>
+            <amigos>
+                <persona nombre="José" apellidos="García Fernández">
+                    <fechaNacimiento>1999-10-05</fechaNacimiento>
+                    <lugarNacimiento  nombre="Levinco">
+                        <longitud>-5.60097</longitud>
+                        <latitud>43.15158</latitud>
+                        <altitud>470</altitud>
+                    </lugarNacimiento>
+                    <lugarResidencia nombre="Felechosa">
+                        <longitud>-5.507697</longitud>
+                        <latitud>43.10332</latitud>
+                        <altitud>654</altitud>
+                    </lugarResidencia>
+                    <fotografias>
+                        <foto>multimedia/Jose1.jpg</foto>
+                    </fotografias>
+                    <comentarios>Le gusta la fiesta</comentarios>
+                </persona>
+                <persona nombre="Jesús" apellidos="García Fernández">
+                    <fechaNacimiento>2002-07-07</fechaNacimiento>
+                    <lugarNacimiento  nombre="Levinco">
+                        <longitud>-5.60097</longitud>
+                        <latitud>43.15158</latitud>
+                        <altitud>470</altitud>
+                    </lugarNacimiento>
+                    <lugarResidencia nombre="Felechosa">
+                        <longitud>-5.507697</longitud>
+                        <latitud>43.10332</latitud>
+                        <altitud>654</altitud>
+                    </lugarResidencia>
+                    <fotografias>
+                        <foto>multimedia/JesGarci1.jpg</foto>
+                    </fotografias>
+                    <comentarios>El hermano de José</comentarios>
+                </persona>
+                <persona nombre="Lorena" apellidos="Fernández Fernández">
+                    <fechaNacimiento>1999-12-04</fechaNacimiento>
+                    <lugarNacimiento nombre="Felechosa">
+                        <longitud>-5.507697</longitud>
+                        <latitud>43.10332</latitud>
+                        <altitud>654</altitud>
+                    </lugarNacimiento>
+                    <lugarResidencia nombre="Felechosa">
+                        <longitud>-5.507697</longitud>
+                        <latitud>43.10332</latitud>
+                        <altitud>654</altitud>
+                    </lugarResidencia>
+                    <fotografias>
+                        <foto>multimedia/Lore1.jpg</foto>
+                    </fotografias>
+                    <comentarios>Comparte cumpleaños con Lucía</comentarios>
+                </persona>
+            </amigos>
+        </persona>
+        <persona nombre="Gema" apellidos="González Rodríguez">
+            <fechaNacimiento>1997-01-01</fechaNacimiento>
+            <lugarNacimiento nombre="Llanos">
+                <longitud>-5.58333</longitud>
+                <latitud>43.10000</latitud>
+                <altitud>530</altitud>
+            </lugarNacimiento>
+            <lugarResidencia nombre="Llanos">
+                <longitud>-5.58333</longitud>
+                <latitud>43.10000</latitud>
+                <altitud>530</altitud>
+            </lugarResidencia>
+            <fotografias>
+                <foto>multimedia/Gema1.jpg</foto>
+                <foto>multimedia/Gema2.jpg</foto>
+            </fotografias>
+            <comentarios>No le gusta la Navidad</comentarios>
+            <amigos>
+                <persona nombre="Santiago" apellidos="González de la Fuente">
+                    <fechaNacimiento>1998-03-30</fechaNacimiento>
+                    <lugarNacimiento nombre="Llanos">
+                        <longitud>-5.58333</longitud>
+                        <latitud>43.10000</latitud>
+                        <altitud>530</altitud>
+                    </lugarNacimiento>
+                    <lugarResidencia nombre="Felechosa">
+                        <longitud>-5.507697</longitud>
+                        <latitud>43.10332</latitud>
+                        <altitud>654</altitud>
+                    </lugarResidencia>
+                    <fotografias>
+                        <foto>multimedia/Santi1.jpg</foto>
+                    </fotografias>
+                    <comentarios>Le gusta jugar al fútbol</comentarios>
+                </persona>
+                <persona nombre="María" apellidos="Rodríguez Prieto">
+                    <fechaNacimiento>1999-08-06</fechaNacimiento>
+                    <lugarNacimiento nombre="La Fuente">
+                        <longitud>-5.55621</longitud>
+                        <latitud>43.1271</latitud>
+                        <altitud>600</altitud>
+                    </lugarNacimiento>
+                    <lugarResidencia nombre="La Fuente">
+                        <longitud>-5.55621</longitud>
+                        <latitud>43.1271</latitud>
+                        <altitud>600</altitud>
+                    </lugarResidencia>
+                    <fotografias>
+                        <foto>multimedia/Maria1.jpg</foto>
+                    </fotografias>
+                    <comentarios>Se quiere mudar a La Corredoria</comentarios>
+                </persona>
+                <persona nombre="Gerardo" apellidos="Rodríguez Prieto">
+                    <fechaNacimiento>1999-08-06</fechaNacimiento>
+                    <lugarNacimiento nombre="La Fuente">
+                        <longitud>-5.55621</longitud>
+                        <latitud>43.1271</latitud>
+                        <altitud>600</altitud>
+                    </lugarNacimiento>
+                    <lugarResidencia nombre="La Fuente">
+                        <longitud>-5.55621</longitud>
+                        <latitud>43.1271</latitud>
+                        <altitud>600</altitud>
+                    </lugarResidencia>
+                    <fotografias>
+                        <foto>multimedia/Gerardo1.jpg</foto>
+                    </fotografias>
+                    <comentarios>Es el hermano mellizo de María</comentarios>
+                </persona>
+            </amigos>
+        </persona>
+        <persona nombre="Pablo" apellidos="García Blanco">
+            <fechaNacimiento>1998-05-10</fechaNacimiento>
+            <lugarNacimiento nombre="Cangas del Narcea">
+                <longitud>-6.54913</longitud>
+                <latitud>43.1771</latitud>
+                <altitud>396</altitud>
+            </lugarNacimiento>
+            <lugarResidencia nombre="Cangas del Narcea">
+                <longitud>-6.54913</longitud>
+                <latitud>43.1771</latitud>
+                <altitud>396</altitud>
+            </lugarResidencia>
+            <fotografias>
+                <foto>multimedia/Pablo1.jpg</foto>
+            </fotografias>
+            <comentarios>Le encantan los voladores</comentarios>
+            <amigos>
+                <persona nombre="Román" apellidos="García Álvarez">
+                    <fechaNacimiento>1996-05-12</fechaNacimiento>
+                    <lugarNacimiento nombre="Piñeres">
+                        <longitud>-5,6966</longitud>
+                        <latitud>43.1694</latitud>
+                        <altitud>383</altitud>
+                    </lugarNacimiento>
+                    <lugarResidencia nombre="Cangas del Narcea">
+                        <longitud>-6.54913</longitud>
+                        <latitud>43.1771</latitud>
+                        <altitud>396</altitud>
+                    </lugarResidencia>
+                    <fotografias>
+                        <foto>multimedia/Roman1.jpg</foto>
+                    </fotografias>
+                    <comentarios>No recuerda nada de la mudanza</comentarios>
+                </persona>
+                <persona nombre="Francisco" apellidos="González Suárez">
+                    <fechaNacimiento>1999-07-10</fechaNacimiento>
+                    <lugarNacimiento nombre="Cangas del Narcea">
+                        <longitud>-6.54913</longitud>
+                        <latitud>43.1771</latitud>
+                        <altitud>396</altitud>
+                    </lugarNacimiento>
+                    <lugarResidencia nombre="Cangas del Narcea">
+                        <longitud>-6.54913</longitud>
+                        <latitud>43.1771</latitud>
+                        <altitud>396</altitud>
+                    </lugarResidencia>
+                    <fotografias>
+                        <foto>multimedia/Fran1.jpg</foto>
+                    </fotografias>
+                    <comentarios>Tiene un perro y dos gatos</comentarios>
+                </persona>
+                <persona nombre="Estela" apellidos="Rodríguez Herrero">
+                    <fechaNacimiento>2001-09-07</fechaNacimiento>
+                    <lugarNacimiento nombre="Cangas del Narcea">
+                        <longitud>-6.54913</longitud>
+                        <latitud>43.1771</latitud>
+                        <altitud>396</altitud>
+                    </lugarNacimiento>
+                    <lugarResidencia nombre="Cangas del Narcea">
+                        <longitud>-6.54913</longitud>
+                        <latitud>43.1771</latitud>
+                        <altitud>396</altitud>
+                    </lugarResidencia>
+                    <fotografias>
+                        <foto>multimedia/Estela1.jpg</foto>
+                    </fotografias>
+                    <comentarios>Fue novia de Francisco</comentarios>
+                </persona>
+            </amigos>
+        </persona>
+    </amigos>
+</persona>

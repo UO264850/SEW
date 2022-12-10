@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Lucía Megido García" />
+    <meta name="desription" content="Quinto ejercicio de la practica de JS para SEW" />
+    <meta name="keywords" content="Calculadora, RPN" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <title>Ejercicio5 JS - UO264850</title>
+    <link rel="stylesheet" href="CalculadoraRPN.css">
+    <script src="CalculadoraRPN.js"></script>
+</head>
+
+<body>
+    <section>
+        <h1>Calculadora RPN</h1>
+        <label for="expresion">Pila</label>
+        <input type="text" id="expresion" disabled><br>
+        <label for="pantalla">Pantalla</label>
+        <input type="text" id="pantalla" disabled><br>
+        <div id="botones">
+            <input type="button" id="sin" value="sin" onclick="calc.sin()">
+            <input type="button" id="cos" value="cos" onclick="calc.cos()">
+            <input type="button" id="tan" value="tan" onclick="calc.tan()">
+            <input type="button" id="log" value="log" onclick="calc.logaritmo()">
+            <input type="button" id="asin" value="asin" onclick="calc.asin()">
+            <input type="button" id="acos" value="acos" onclick="calc.acos()">
+            <input type="button" id="atan" value="atan" onclick="calc.atan()">
+            <input type="button" id="sqroot" value="√" onclick="calc.raiz()">
+            <input type="button" id="1/x" value="1/x" onclick="calc.unodivx()">
+            <input type="button" id="pi" value="π" onclick="calc.pi()">
+            <input type="button" id="CE" value="CE" onclick="calc.limpiarRes()">
+            <input type="button" id="C" value="C" onclick="calc.limpiar()">
+            <input type="button" id="enter" value="enter" onclick="calc.push()">
+            <input type="button" id="borrar" value="←" onclick="calc.borrar()">
+            <input type="button" id="dec" value="." onclick="calc.write('.')">
+            <input type="button" id="dv" value="/" onclick="calc.division()">
+            <input type="button" id="b7" value="7" onclick="calc.write(7)">
+            <input type="button" id="b8" value="8" onclick="calc.write(8)">
+            <input type="button" id="b9" value="9" onclick="calc.write(9)">
+            <input type="button" id="mul" value="x" onclick="calc.multiplicacion()">
+            <input type="button" id="b4" value="4" onclick="calc.write(4)">
+            <input type="button" id="b5" value="5" onclick="calc.write(5)">
+            <input type="button" id="b6" value="6" onclick="calc.write(6)">
+            <input type="button" id="res" value="-" onclick="calc.resta()">
+            <input type="button" id="b1" value="1" onclick="calc.write(1)">
+            <input type="button" id="b2" value="2" onclick="calc.write(2)">
+            <input type="button" id="b3" value="3" onclick="calc.write(3)">
+            <input type="button" id="sum" value="+" onclick="calc.suma()">
+            <input type="button" id="b0" value="0" onclick="calc.write(0)">
+            
+        </div>
+    </section>
+</body>
+
+</html>

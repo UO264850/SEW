@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Lucía Megido García" />
+    <meta name="desription" content="Séptimo ejercicio de la practica de JS para SEW" />
+    <meta name="keywords" content="JQuery" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <title>Ejercicio7 JS - UO264850</title>
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Ejercicio7.js"></script>
+</head>
+
+<body>
+    <section>
+        <h1>Ejercicio 7 de la Práctica 3 de Sew</h1>
+        <img id="miIcono" src="icon1.png" alt="icono modificable" />
+        <p><input type="button" value="Ocultar imagen" onclick="manager.ocultar()" />
+            <input type="button" value="Mostrar imagen" onclick="manager.mostrar()" />
+        </p>
+        <p>
+            <input type="button" value="Icono 1" onclick="manager.cambiar('icon1.png')" />
+            <input type="button" value="Icono 2" onclick="manager.cambiar('icon2.png')" />
+            <input type="button" value="Icono 3" onclick="manager.cambiar('icon3.png')" />
+            <input type="button" value="Icono 4" onclick="manager.cambiar('icon4.png')" />
+        </p>
+    </section>
+
+    <section>
+        <h2>Añade elementos a la lista</h2>
+
+        <label for="nuevoElemento">Escribe algo para añadir:</label>
+        <input type="text" id="nuevoElemento" name="nuevoElemento">
+        <input type="button" value="Añadir Elemento" onclick="manager.add()" />
+        <input type="button" value="Eliminar Elementos" onclick="manager.vaciar()" />
+
+        <h3>Lista de Elementos</h3>
+        <ul title="elementos">
+        </ul>
+
+        <input type="button" value="Ocultar lista" onclick="manager.ocultarLista()" />
+        <input type="button" value="Mostrar lista" onclick="manager.mostrarLista()" />
+
+    </section>
+
+    <section>
+        <h2>Tabla de datos</h2>
+        <table id="datos">
+            <thead>
+                <tr>
+                    <th>Valor 1</th>
+                    <th>Valor 2</th>
+                    <th>Valor 3</th>
+                    <th>Valor 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        100
+                    </td>
+                    <td>
+                        200
+                    </td>
+                    <td>
+                        300
+                    </td>
+                    <td>
+                        400
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        500
+                    </td>
+                    <td>
+                        600
+                    </td>
+                    <td>
+                        700
+                    </td>
+                    <td>
+                        800
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        900
+                    </td>
+                    <td>
+                        1000
+                    </td>
+                    <td>
+                        1100
+                    </td>
+                    <td>
+                        1200
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>
+            <input type="button" value="Sumar filas/columnas" onclick="manager.calcularFilasColumnas()" />
+        </p>
+        <label for="totalFilas">Total de filas: </label>
+        <input type="text" id="totalFilas" name="totalFilas" disabled>
+        <label for="totalColumnas">Total de columnas: </label>
+        <input type="text" id="totalColumnas" name="totalColumnas" disabled>
+    </section>
+
+    <section>
+        <h2>Resumen de elementos: </h2>
+        <input type="button" value="Analizar elementos" onclick="manager.analizarDoc()" />
+        <p title="resumen">
+            
+        </p>
+    </section>
+</body>
+
+</html>
